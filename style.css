@@ -8,6 +8,8 @@
     height: 60px;
     background-color: #0F1111;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .navlogo{
@@ -27,4 +29,25 @@
 }
 .border:hover{
     border: 1px solid white;
+}
+
+/** Box 2 in the navigation bar **/
+.address_first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+.address_second{
+    color: #ffffff;
+    margin-left: 3px;
+}
+.address_icon{
+    display: flex;
+    padding-left: 4px;
+}
+.nav_address{
+    margin-left: 3px;
+    width: 80px;
+    height: 59px;
 }
