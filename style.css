@@ -10,6 +10,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .navlogo{
@@ -50,4 +51,39 @@
     margin-left: 3px;
     width: 80px;
     height: 59px;
+}
+
+/** Box 3 (Search Bar) in the navigation bar **/
+.nav_search{
+    width: 700px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0F1111;
+    border-radius: 5px;
+}
+.search_select{
+    margin-left: 5px;
+    width: 50px;
+    background-color: #E6E6E6;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search_input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search_icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0F1111; 
 }
