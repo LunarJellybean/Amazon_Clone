@@ -14,7 +14,7 @@
 }
 
 .navlogo{
-    height: 59px;
+    height: 50px;
     width: 100px;
     padding: 15px 10px 5px 11px;
 }
@@ -50,7 +50,7 @@
 .nav_address{
     margin-left: 3px;
     width: 80px;
-    height: 59px;
+    height: 50px;
 }
 
 /** Box 3 (Search Bar) in the navigation bar **/
@@ -62,13 +62,16 @@
     background-color: #0F1111;
     border-radius: 5px;
 }
+.nav_search:hover{
+    border: 2px solid orange;
+}
 .search_select{
-    margin-left: 5px;
+    /* margin-left: 5px; */
     width: 50px;
     background-color: #E6E6E6;
     text-align: center;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
     border: none;
 }
 .search_input{
@@ -83,7 +86,49 @@
     align-items: center;
     font-size: 1.25rem;
     background-color: #febd68;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
     color: #0F1111; 
+}
+
+/** Box 4 (Sign in and Account) in the navigation bar **/
+.sign_in{
+    width: 130px;
+    height: 50px;
+    padding: 10px 0 0 16px;
+}
+.nav_first{
+    font-size: 0.75rem;
+}
+.nav_second{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/** Box 5 (Returns & Orders) in the navigation bar **/
+.nav_return{
+    width: 76px;
+    height: 50px;
+    padding: 10px 0 0 10px;
+}
+.return_first{
+    font-size: 0.75rem;
+}
+.return_second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** Box 6 (Cart) in the navigation bar **/
+.nav_cart{
+    height: 50px;
+    width: 76px;
+    padding: 10px 0 0 6px;
+}
+.nav_cart i{
+    font-size: 28px;
+}
+.nav_cart{
+    font-size: 0.85rem;
+    font-weight: 700;
 }
