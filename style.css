@@ -55,7 +55,7 @@
 
 /** Box 3 (Search Bar) in the navigation bar **/
 .nav_search{
-    width: 700px;
+    width: 940px;
     height: 40px;
     display: flex;
     justify-content: space-evenly;
