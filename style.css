@@ -183,3 +183,10 @@
     height: 40px;
     padding: 10px 0 0 0;
 }
+
+/** Hero Section **/
+.hero-section{
+    background-image: url("gifts.jpg");
+    background-size: cover;
+    height: 600px;
+}
