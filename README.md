@@ -25,3 +25,11 @@ Open index.html in your web browser.
 
 Contributing
 Contributions are welcome! If you find any issues or would like to enhance the project, feel free to open an issue or create a pull request.
+
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+
