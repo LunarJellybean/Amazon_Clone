@@ -212,113 +212,172 @@
 /** shop-section **/
 .shop-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: rgb(245, 229, 231);
 }
 .box{
-    height: 400px;
+    height: 420px;
     width: 23%;
-    /* border: 2px solid black; */
     background-color: #FFFFFF;
     font-size: 15px;
     padding: 20px 0 15px 0;
 }
 
-/** box1 **/
-.box1 h2{
-    font-size: 21px;
-    padding: 15px 0 0 15px;
-    font-weight: bold;
+/** box 1 **/
+.box1-images{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
-/** box1 upper part **/
-.box1-upper{
+.box1-upper-images{
+    height: 105px;
     display: flex;
-    padding-top: 15px;
+    justify-content: space-between;
 }
-.box1-common{
-    width: 150px;
-    height: 100px;
-}
-.box1-options-common a{
-    text-decoration: none;
+.box1-lower-images{
+    height: 105px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 .image1{
+    height: 100px;
+    width: 140px;
     background-image: url("Images/Headsets.jpg");
     background-size: cover;
 }
 .image2{
+    height: 100px;
+    width: 140px;
     background-image: url("Images/Keyboards.jpg");
-    background-size: cover;
-    margin-left: 20px;
-}
-.box1-options-common{
-    font-size: 12px;
-    display: flex;
-    justify-content: space-evenly;
-}
-.box1-options-common span{
-    margin: 3px 0 0 25px;
-    width: 45%;   
-    height: 36px; 
-}
-/** box1 lower part **/
-.box1-lower{
-    display: flex;
+    background-size: cover
+
 }
 .image3{
+    height: 100px;
+    width: 140px;
     background-image: url("Images/Computer-mouse.jpg");
-    background-size: cover;
+    background-size: cover
+
 }
 .image4{
+    height: 100px;
+    width: 140px;
     background-image: url("Images/Chairs.jpg");
-    background-size: cover;
+    background-size: cover
+
 }
-.box1-seemore{  
-    padding: 0 25px;
-    margin: 13px 0 0 0;
+.box1-span{
+    width: 270px;
+    display: flex;
+    justify-content: space-around;
+}
+.box1-images span{
+    font-size: 12px;
 }
 .box1-seemore a{
-    color: #007185; 
-    font-size: 13px;     
-    text-decoration: none;   
+    font-size: 13px;
+    text-decoration: none;
+    color: #007185;
 }
 .box1-seemore a:hover{
     color: red;
 }
 
 /** box2 **/
-.box2 h2{
-    font-size: 21px;
-    padding: 15px 0 0 24px;
-    font-weight: bold;
+.commonbox-content{   /** can be universal for all the boxes **/
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
-.box2-image{   
-    width: 100%;
-    height: 275px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.commonbox-content h2{
+    font-size: 21px;
+}
+.box-image{    
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .image5{
-    width: 280px;
-    height: 260px;
+    height: 300px;
     background-image: url("Images/music-box.jpg");
-    background-size: cover;
-}
-.box2-shopnow{
-    width: 100%;
-    height: 17px;
-    margin: 34px 0 0 0;
+    background-size: 100% 100%;
 }
 .box2-shopnow a{
-    color: #007185;
     font-size: 13px;
+    color: #007185;
     text-decoration: none;
-    padding: 0 0 0 25px;
 }
 .box2-shopnow a:hover{
     color: red;
 }
-.box2-image:hover ~ .box2-shopnow a{
+.box-image:hover ~ .box2-shopnow a{
     color: red;
+}
+
+/** margin for box5, box6, box7 and box8 **/
+.nextlineboxes{
+    margin-top: 20px;
+}
+
+/** box 3 **/
+.image6{
+    height: 100px;
+    width: 140px;
+    background-image: url("Images/Dining.jpg");
+    background-size: cover;
+}
+.image7{
+    height: 100px;
+    width: 140px;
+    background-image: url("Images/Home.jpg");
+    background-size: cover;
+}
+.image8{
+    height: 100px;
+    width: 140px;
+    background-image: url("Images/Kitchen.jpg");
+    background-size: cover;
+}
+.image9{
+    height: 100px;
+    width: 140px;
+    background-image: url("Images/HealthAndBeauty.jpg");
+    background-size: cover;
+}
+
+/** box 4 **/
+.box4-upper-images{
+    height: 170px;
+    background-image: url("Images/Smartphones.jpg");
+    background-size: cover;
+    margin-top: 1rem;
+}
+.box4-upper-images p{
+    font-size: 15px;
+}
+.box4-subimages-box{
+    height: 90px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.box4-images{
+    height: 90px;
+    width: 90px;
+}
+.image10{
+    background-image: url("Images/Tablets.jpg");
+    background-size: cover;
+}
+.image11{
+    background-image: url("Images/Laptops.jpg");
+    background-size: cover;
+}
+.image12{
+    background-image: url("Images/TVs.jpg");
+    background-size: cover;
+}
+.box4-seemore{
+    margin-top: 12px;
 }
