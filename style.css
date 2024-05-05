@@ -241,29 +241,25 @@
     justify-content: space-between;
     margin-top: 30px;
 }
-.image1{
+.box1-common-images{
     height: 100px;
     width: 140px;
+}
+.image1{
     background-image: url("Images/Headsets.jpg");
     background-size: cover;
 }
 .image2{
-    height: 100px;
-    width: 140px;
     background-image: url("Images/Keyboards.jpg");
     background-size: cover
 
 }
 .image3{
-    height: 100px;
-    width: 140px;
     background-image: url("Images/Computer-mouse.jpg");
     background-size: cover
 
 }
 .image4{
-    height: 100px;
-    width: 140px;
     background-image: url("Images/Chairs.jpg");
     background-size: cover
 
@@ -294,7 +290,7 @@
     font-size: 21px;
 }
 .box-image{    
-    height: 300px;
+    /* height: 300px; */
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -380,4 +376,99 @@
 }
 .box4-seemore{
     margin-top: 12px;
+}
+
+/** box5 **/
+.image13{
+    background-image: url("Images/Jeans.jpg");
+    background-size: cover;
+}
+.image14{
+    background-image: url("Images/Tops.jpg");
+    background-size: cover;
+}
+.image15{
+    background-image: url("Images/Dresses.jpg");
+    background-size: cover;
+}
+.image16{
+    background-image: url("Images/Shoes.jpg");
+    background-size: cover;
+}
+
+/** box6 **/
+.image17{
+    height: 300px;
+    background-image: url("Images/Purse.jpg");
+    background-size: cover;
+}
+
+/** box7 **/
+.box7-image{
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+    height: 230px;
+    background-image: url("Images/KitchenUtensils.jpg");
+    background-size: cover;
+}
+.box7-content{
+    display: flex;
+    margin-top: 4px;
+}
+.box7-content a{
+    text-decoration: none;
+}
+.box7-upto{
+    background-color: #CC0339;
+    color: white;
+    font-size: 12px;
+    width: 89px;
+    height: 24px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.display-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7-limited{
+    width: 100px;
+    margin-left: 4px;
+}
+.box7-limited a{
+    font-size: 12px;
+    color: #CC0339;
+    font-weight: bold;
+}
+.box7-topdeal a{
+    font-size: 13px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #0F1111;
+}
+.box7-seedeals{
+    margin-top: 40px;
+}
+.box7-seedeals:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+/** box8 **/
+.image18{
+    background-image: url("Images/DressesLong.jpg");
+    background-size: cover; 
+}
+.image19{
+    background-image: url("Images/Knits.jpg");
+    background-size: cover; 
+}
+.image20{
+    background-image: url("Images/Jackets.jpg");
+    background-size: cover; 
+}
+.image21{
+    background-image: url("Images/Jewelry.jpg");
+    background-size: cover; 
 }
