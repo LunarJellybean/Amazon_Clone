@@ -1,5 +1,5 @@
 # Amazon Webpage Clone
-This project is a clone of the Amazon webpage created using HTML and CSS.
+This project is a homepage replica of the Amazon webpage created using HTML and CSS.
 
 ## Table of Contents
 - About
